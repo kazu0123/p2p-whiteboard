@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./static/oekaki/style.css" rel="stylesheet">
+        <script defer src="./static/oekaki/script.js"></script>
+        <script 
+            src="https://cdn.socket.io/4.5.4/socket.io.min.js" 
+            integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" 
+            crossorigin="anonymous" ></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="boards">
+            <canvas id="whiteboard"></canvas>
+        </div>
+
+        <div id="interface">
+            <select name="mode" id="mode">
+                <option value="move">move</option>
+                <option value="draw" selected>draw</option>
+            </select>
+            <input type="color" id="color" value="#0000ff">
+            <input type="range" max="20" min="1" step="1" id="thick">
+        </div>
+    </body>
+</html>

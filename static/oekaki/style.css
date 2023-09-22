@@ -1,0 +1,23 @@
+html,body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#boards {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    touch-action: none;
+    background-color: gray;
+}
+canvas {
+    position: absolute;
+}
+#interface {
+    position: fixed;
+    width: 200px;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+}
